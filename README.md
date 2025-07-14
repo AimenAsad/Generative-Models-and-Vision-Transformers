@@ -95,7 +95,7 @@ Two datasets were utilized:
     * *Visualizations:* Positional encoding visualization is available in the `results/` directory.
 
 ### 2.4 Training and Evaluation
-
+![train](images/q2.png)
 * **Optimizer:** Adam optimizer.
 * **Learning Rate:** Employed a learning rate warmup schedule.
 * **Evaluation Metric:** **BLEU (Bilingual Evaluation Understudy) score**.
@@ -104,7 +104,7 @@ Two datasets were utilized:
 * *Visualizations:* Sample mBART translations are available in the `results/` directory.
 
 ### 2.5 Conclusion
-
+![result](images/q3_result.png)
 Transformer-based models proved highly effective for English-to-Urdu machine translation, with significant performance gains observed when fine-tuning pre-trained models like mBART. Future improvements could involve attention visualization, back-translation techniques, or more extensive multilingual training.
 
 ---
@@ -138,6 +138,8 @@ To compare the performance of **Vision Transformers (ViT)** with traditional **C
 
 ### 3.4 Conclusion
 
+![CNN](images/CNN_result.png)
+![Vit](images/Vit_result.png)
 * **Accuracy:** ViT demonstrated competitive accuracy compared to the CNN baseline.
 * **Parameters & Training Time:** ViT achieved this with fewer parameters but generally required longer training times.
 * **Convergence:** CNNs exhibited faster convergence during training.
